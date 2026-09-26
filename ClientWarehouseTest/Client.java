@@ -38,4 +38,4 @@ public class Client implements Serializable {
                 + ", Address: " + address
                 + ", Balance: $" + String.format("%.2f", balance);
     }
-}S
+}
