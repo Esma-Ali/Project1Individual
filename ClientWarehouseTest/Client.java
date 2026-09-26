@@ -15,7 +15,7 @@ public class Client implements Serializable {
         this.id = "C" + idCounter++;
         this.name = name;
         this.address = address;
-        this.balance = 0.0;S
+        this.balance = 0.0;
         this.wishlist = new Wishlist();
     }
 
