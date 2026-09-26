@@ -1,0 +1,78 @@
+Script started on 2026-09-26 17:50:49+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="115" LINES="15"]
+[?2004h[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [7mjavac *.java[27mjavac *.java
+[?2004lClient.java:18: error: not a statement
+        this.balance = 0.0;S
+                           ^
+Client.java:18: error: ';' expected
+        this.balance = 0.0;S
+                            ^
+2 errors
+[?2004h[0;32m@Esma-Ali [1;31m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [7mjavac *.java[27mjavac *.java
+[?2004lClient.java:18: error: not a statement
+        this.balance = 0.0;S
+                           ^
+Client.java:18: error: ';' expected
+        this.balance = 0.0;S
+                            ^
+2 errors
+[?2004h[0;32m@Esma-Ali [1;31m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ javac *.java
+[?2004lClient.java:18: error: not a statement
+        this.balance = 0.0;S
+                           ^
+Client.java:18: error: ';' expected
+        this.balance = 0.0;S
+                            ^
+2 errors
+[?2004h[0;32m@Esma-Ali [1;31m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [7mjavac *.java[27mjavac *.java
+[?2004l[?2004h[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [7mjava ClientWarehouseTest[27mjava ClientWarehouseTest
+[?2004l===== SINGLETON TEST =====
+Both references are the same: true
+
+===== ADD CLIENT TEST =====
+Client ID: C1, Name: Esma Ali, Address: 100 Main Street, Balance: $0.00
+Client ID: C2, Name: Sara Ahmed, Address: 200 Oak Street, Balance: $0.00
+Client ID: C3, Name: Maya Johnson, Address: 300 Lake Street, Balance: $0.00
+
+===== DISPLAY ALL CLIENTS TEST =====
+Client ID: C1, Name: Esma Ali, Address: 100 Main Street, Balance: $0.00
+Client ID: C2, Name: Sara Ahmed, Address: 200 Oak Street, Balance: $0.00
+Client ID: C3, Name: Maya Johnson, Address: 300 Lake Street, Balance: $0.00
+
+===== FIND CLIENT TEST =====
+Existing client: Client ID: C2, Name: Sara Ahmed, Address: 200 Oak Street, Balance: $0.00
+Invalid client: null
+
+===== ADD PRODUCT TEST =====
+Product ID: P1, Name: Laptop, Quantity: 10, Price: $799.99
+Product ID: P2, Name: Headphones, Quantity: 20, Price: $49.99
+Product ID: P3, Name: Keyboard, Quantity: 30, Price: $29.99
+
+===== DISPLAY ALL PRODUCTS TEST =====
+Product ID: P1, Name: Laptop, Quantity: 10, Price: $799.99
+Product ID: P2, Name: Headphones, Quantity: 20, Price: $49.99
+Product ID: P3, Name: Keyboard, Quantity: 30, Price: $29.99
+
+===== FIND PRODUCT TEST =====
+Existing product: Product ID: P2, Name: Headphones, Quantity: 20, Price: $49.99
+Invalid product: null
+
+===== ADD TO WISHLIST TEST =====
+Add Laptop: true
+Add Headphones: true
+Update Laptop quantity to 8: true
+
+===== DISPLAY WISHLIST TEST =====
+Product ID: P1, Name: Laptop, Quantity: 10, Price: $799.99, Wishlist Quantity: 8
+Product ID: P2, Name: Headphones, Quantity: 20, Price: $49.99, Wishlist Quantity: 2
+
+===== ERROR TESTS =====
+Invalid client ID: false
+Invalid product ID: false
+Invalid quantity: false
+Wishlist for invalid client: null
+
+===== TESTING COMPLETE =====
+[?2004h[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Esma-Ali [0m➜ [1;34m/workspaces/Project1Individual/ClientWarehouseTest [0;36m([1;31mmain[0;36m) [0m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-09-26 17:57:25+00:00 [COMMAND_EXIT_CODE="0"]
